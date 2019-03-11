@@ -1,3 +1,5 @@
+// please look at console.log 
+// https://artchebanenko.github.io/poketrade/notfound
 export function flatNested(input) {
   const isNested = Object.keys(input).every(key => {
     return input[key] && typeof input[key] === 'object';
