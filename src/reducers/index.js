@@ -31,13 +31,15 @@ const errorMessage = (state = null, action) => {
 };
 
 // Filtering and pagination
+const defaultState = {
+	setsSeries: '', 
+	cardName: '',
+	dataPointer: 0,
+	dataOffcut: 6,
+};
+
 const filter = (
-	state = {
-		setsSeries: '', 
-		cardName: '',
-		dataPointer: 0,
-		dataOffcut: 6,
-	}, action) => {
+	state = defaultState, action) => {
 
 	switch(action.type) {
 		case 'DO_FILTER_SERIES':
@@ -50,12 +52,7 @@ const filter = (
 		case 'SHOW_MORE':
 			return {...state, dataPointer: action.dataPointer};
 		case 'RESET_FILTER':
-			return {
-				setsSeries: '', 
-				cardName: '',
-				dataPointer: 0,
-				dataOffcut: 6,
-			};
+			return defaultState;
 		default:
 			return state;
 	}
