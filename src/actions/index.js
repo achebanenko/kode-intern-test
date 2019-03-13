@@ -46,8 +46,9 @@ export function showMore(dataPointer) {
 	}
 }
 
-export function resetFilter() {
+export function resetFilter(dataType) {
 	return {
-		type: 'RESET_FILTER'
+		type: 'RESET_FILTER',
+		dataType
 	}
 }

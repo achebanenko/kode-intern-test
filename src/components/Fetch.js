@@ -32,7 +32,7 @@ class Fetch extends Component {
 
   componentDidMount() {
     this.props.loadingData(true)
-    this.props.resetFilter();
+    this.props.resetFilter(this.props.type);
 
     // Call for and save data
     this.fetchPromise()

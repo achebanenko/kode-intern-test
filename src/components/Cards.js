@@ -8,6 +8,7 @@ const Cards = ({location}) => {
   return (
     <Fetch 
       type="cards"
+      // router query string
       query={location.search}
       render={({ data, isLoading, filter }) => (
         <div className="container">
