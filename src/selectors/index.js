@@ -1,7 +1,7 @@
 // Search cards by name
 export function filterName(arr = [], keyword = '') {
 	if(keyword !== '') {
-		return arr.filter(item => item.name.includes( keyword ));
+		return arr.filter(item => item.name.toLowerCase().includes( keyword.toLowerCase() ));
 	}
 	return arr;
 }
