@@ -2,7 +2,7 @@
   
 ### 1. Преобразование данных  
   
-https://github.com/artchebanenko/flat-nested  
+https://github.com/artchebanenko/kode-intern-test/blob/master/src/flatNested.js  
   
 ### 2. Покемоны!  
   
