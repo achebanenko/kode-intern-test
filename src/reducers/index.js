@@ -52,8 +52,7 @@ const filter = (
 		case 'SHOW_MORE':
 			return {...state, dataPointer: action.dataPointer};
 		case 'RESET_FILTER':
-			let dataOffcut;
-			action.dataType === 'cards' ? dataOffcut = 8 : dataOffcut = defaultFilter.dataOffcut;
+			const dataOffcut = action.dataType === 'cards' ? 8 : defaultFilter.dataOffcut;
 			return {...defaultFilter, dataOffcut};
 		default:
 			return state;
