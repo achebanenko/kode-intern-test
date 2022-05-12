@@ -6,7 +6,7 @@ https://github.com/artchebanenko/kode-intern-test/blob/master/flatNested.js
   
 ## 2. Покемоны!  
 
-Api https://pokemontcg.io/  
+API https://pokemontcg.io/  
   
 ### Декомпозиция проекта  
 - 1 час сетап  
