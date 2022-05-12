@@ -7,11 +7,6 @@ https://github.com/artchebanenko/kode-intern-test/blob/master/flatNested.js
 ## 2. Покемоны!  
 
 Api https://pokemontcg.io/  
-
-### Результат  
-  
-https://artchebanenko.github.io/poketrade/  
-https://github.com/artchebanenko/kode-intern-test  
   
 ### Декомпозиция проекта  
 - 1 час сетап  
@@ -33,6 +28,6 @@ https://github.com/artchebanenko/kode-intern-test
 ### Дополнительная функциональность  
 - фильтр сетов по серии;  
 - поиск карточек по названию;  
-- show more;  
-- notfound компонент (напр., при клике на карточку);  
+- кнопка show more;  
+- notfound компонент (при клике на карточку);  
 - ошибка fetching failed.
